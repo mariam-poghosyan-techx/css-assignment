@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout Practice Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="position-fixed">Fixed</div>
+    <div class="container">
+        <header class="section">
+            <h1 style="text-align: center; color: #667eea; font-size: 2.5rem; margin-bottom: 10px;">CSS Layout Practice Page</h1>
+            <p style="text-align: center; font-size: 1.1rem; color: #666;"> 
+               Practice CSS Grid, Flexbox, Positioning, Media Queries, and More!
+            </p>
+
+        </header>
+
+        <!-- Basic Drid -->
+        <section class="section">
+            <h2 class="section-title">🔲 CSS Grid Practice</h2>
+            <h3>Basic Grid (Auto-fit & Minmax)</h3>
+            <div class="grid-container">
+                <div class="demo-item">Grid item 1</div>
+                <div class="demo-item">Grid item 2</div>
+                <div class="demo-item">Grid item 3</div>
+                <div class="demo-item">Grid item 4</div>
+                <div class="demo-item">Grid item 5</div>
+                <div class="demo-item">Grid item 6</div>
+
+            </div>
+
+            <h3>Advanced Grid Layout</h3>
+            <div class="grid-advanced">
+                <div class="demo-item grid-item-1">Header (spans 3 columns)</div>
+                <div class="demo-item grid-item-2">Sidebar</div>
+                <div class="demo-item grid-item-3">Main Content</div>
+                <div class="demo-item grid-item-4">Ads</div>
+                <div class="demo-item grid-item-5">Footer Left</div>
+                <div class="demo-item grid-item-6">Footer Right</div>
+
+            </div>
+
+        </section>
+
+        <!-- Flexbox Practice -->
+        <section class="section">
+            <h2 class="section-title">🔲 Flexbox Practice</h2>
+            <h3>Flexible Items</h3>
+            <div class="flexbox-container">
+                <div class="demo-item flex-item">Flex item 1</div>
+                <div class="demo-item flex-item">Flex item 2</div>
+                <div class="demo-item flex-item">Flex item 3</div>
+
+            </div>
+
+            <h3>Flex Direction & Alignment</h3>
+            <div class="flexbox-directions">
+                <div class="demo-item">Left</div>
+                <div class="demo-item">Center</div>
+                <div class="demo-item">Right</div>
+            </div>
+
+            <div class="flexbox-column">
+                <div class="demo-item">Column item 1</div>
+                <div class="demo-item">Column item 2</div>
+                <div class="demo-item">Column item 3</div>
+            </div>
+
+        </section>
+
+         <!--Position Practice -->
+        <section class="section">
+            <h2 class="section-title">📍 Position Practice</h2>
+            <div class="position-sticky demo-item">Sticky Header (scroll to see effect)</div>
+
+            <div class="position-container">
+                <div class="demo-item">Relative Container</div>
+                <div class="demo-item position-absolute">Absolute Position</div>
+            </div>
+
+            <p>Notice the fixed position element in the bottom-right corner!</p>
+        </section>
+
+         <!--Table Practice -->
+        <section class="section">
+            <h2 class="section-title">📊 Table Practice</h2>
+            <h3>Styled Data Table</h3>
+            <div class="table-container">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Frontend Developer</td>
+                            <td>Engineering</td>
+                            <td>$75,000</td>
+                            <td>Active</td>
+                        </tr>
+
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>UX Designer</td>
+                            <td>Design</td>
+                            <td>$68,000</td>
+                            <td>Active</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mike Johnson</td>
+                            <td>Backend Developer</td>
+                            <td>Engineering</td>
+                            <td>$80,000</td>
+                            <td>On Leave</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sarah Wilson</td>
+                            <td>Product Manager</td>
+                            <td>Product</td>
+                            <td>$90,000</td>
+                            <td>Active</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Responsive Card Layout (Alternative to Tables)</h3>
+                <div class="table-responsive">
+                    <div class="table-card">
+                        <h4>John Doe</h4>
+                        <p>
+                            <Strong>Position:</Strong>
+                            Frontend Developer
+                        </p>
+                        <p>
+                            <Strong>Department:</Strong>
+                            Engineering
+                        </p>
+                        <p>
+                            <Strong>Salary:</Strong>
+                            $75,000
+                        </p>
+                    </div>
+
+                    <div class="table-card">
+                        <h4>Jane Smith</h4>
+                        <p>
+                            <Strong>Position:</Strong>
+                            UX Designer
+                        </p>
+                        <p>
+                            <Strong>Department:</Strong>
+                            Design
+                        </p>
+                        <p>
+                            <Strong>Salary:</Strong>
+                            $68,000
+                        </p>
+                    </div>
+
+                    <div class="table-card">
+                        <h4>Mike Johnson</h4>
+                        <p>
+                            <Strong>Position:</Strong>
+                            Backend Developer
+                        </p>
+                        <p>
+                            <Strong>Department:</Strong>
+                            Engineering
+                        </p>
+                        <p>
+                            <Strong>Salary:</Strong>
+                            $80,000
+                        </p>
+                    </div>
+                </div>
+        </section>
+         <!-- Form & Input Practice-->
+        <section class="section">
+            <h2 class="section-title">📝 Form & Input Practice</h2>
+                <div class="forms">
+                    <div class="form-grid">
+                        <div>
+                            <h3>Text Inputs</h3>
+                            <div class="input">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" class="styled-input" placeholder="Enter your full name">
+                            </div>
+
+                            <div class="input">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="styled-input success" placeholder="your@email.com" value="john@example.com">
+                            </div>
+
+                            <div class="input">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="styled-input error" placeholder="Enter password">
+                            </div>
+
+                            <div class="input">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="styled-input" placeholder="+1 (555) 123-4567">
+                            </div>
+                        </div>
+                    <div>
+                        <h3>Select & Options</h3>
+                        <div class="input">
+                            <label for="country">Country</label>
+                            <select id="country" class="styled-select">
+                                <option value>Select a country</option>
+                                <option value="us">United States</option>
+                                <option value="ca">Canada</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="de">Germany</option>
+                                <option value="fr">France</option>
+                            </select>
+                        </div>
+
+
+                        <div class="input">
+                            <label>Preferred Contact Method</label>
+                            <div class="radio-group">
+                                <div class="radio-item">
+                                    <input type="radio" id="email-contact" name="contact" class="styled-radio" value="email">
+                                    <label for="email-contact">Email</label>
+                                </div>
+
+                                <div class="radio-item">
+                                    <input type="radio" id="phone-contact" name="contact" class="styled-radio" value="phone">
+                                    <label for="phone-contact">Phone</label>
+                                </div>
+
+                                <div class="radio-item">
+                                    <input type="radio" id="sms-contact" name="contact" class="styled-radio" value="sms">
+                                    <label for="sms-contact">SMS</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="subscription" class="styled-checkbox">
+                                    <label for="subscription">Subscribe to newsletter</label>
+                                </div>
+
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="terms" class="styled-checkbox">
+                                    <label for="terms">I agree to the terms and conditions</label>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                <div class="input">
+                    <label for="message">Message</label>
+                    <div class="textarea-container">
+                        <textarea id="message" class="styled-textarea" placeholder="Enter your message here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="input">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" class="styled-input">
+                </div>
+
+                <div class="input">
+                    <label for="range">Range Slider</label>
+                    <input type="range" id="range" min="0" max="100" value="50" style="width: 100%; accent-color: #667eea;">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
