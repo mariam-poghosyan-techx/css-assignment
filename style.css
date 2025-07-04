@@ -317,7 +317,7 @@ body {
 }
 
 
-.radio-group {
+.radio {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
